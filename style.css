@@ -1,0 +1,436 @@
+@media all and (orientation: landscape) {
+    .shuoshuo_container {
+        font-size: 16px;
+        color: #fff
+    }
+
+    .shuoshuo_more a {
+        color: #a0a
+    }
+
+    .shuoshuo_item {
+        list-style: none;
+    }
+    .shuoshuo_item:last-child {
+        margin-bottom: 0
+    }
+
+    .shuoshuo_meta {
+        position: absolute;
+        left: 0;
+        top: 0
+    }
+
+    .shuoshuo_meta .shuoshuo_time {
+        width: 56px;
+        height: 56px;
+        -webkit-border-radius: 28px;
+        border-radius: 28px;
+        text-align: center;
+        overflow: hidden;
+        margin-left: 48px;
+        background: #48ACF9
+    }
+
+    .shuoshuo_time {
+        color: #fff;
+        background: #49a0e1
+    }
+
+    .shuoshuo_meta .shuoshuo_time .day {
+        font: 24px/1 Tahoma;
+        display: block;
+        margin-top: 10px
+    }
+
+    .shuoshuo_meta .shuoshuo_time .month {
+        font-size: 12px;
+        display: block
+    }
+
+    .shuoshuo_content {
+        color: #373037;
+        background: #fff;
+        padding: 8px;
+        overflow: hidden
+    }
+
+    .shuoshuo_detail p {
+        clear: both;
+        padding: 6px 22px;
+        font-family: Arial, Helvetica, sans-serif, 鍗庢枃琛屾シ;
+        font-size: 20px
+    }
+
+    .shuoshuo_more {
+        display: none;
+        position: absolute
+    }
+
+    .shuoshuo_item:hover .shuoshuo_more {
+        -webkit-animation-name: fadeIn;
+        -webkit-animation-duration: .8s;
+        -webkit-animation-iteration-count: 1;
+        -webkit-animation-delay: 0s;
+        right: 122px;
+        position: absolute;
+        display: block;
+        transition: all .2s ease
+    }
+
+    .shuoshuo_item:hover .shuoshuo_time {
+        box-shadow: 0 0 15px #873FFB
+    }
+
+    .shuoshuo_op {
+        position: relative;
+        padding-right: 30px;
+        text-align: right
+    }
+
+    .shuoshuo_list {
+        overflow: hidden;
+        margin-bottom: 30px
+    }
+
+    .shuoshuo_item {
+        position: relative;
+        padding: 0 80px 0 120px;
+        margin-top: 30px
+    }
+
+    .shuoshuo_item:last-child {
+        margin-bottom: 0
+    }
+
+    .shuoshuo_meta {
+        position: absolute;
+        left: 0;
+        top: 0
+    }
+
+    .shuoshuo_meta .shuoshuo_time {
+        width: 3.6em;
+        height: 3.6em;
+        -webkit-border-radius: 1.8em;
+        border-radius: 1.8em;
+        text-align: center;
+        overflow: hidden;
+        margin-left: 48px
+    }
+
+    .shuoshuo_meta .shuoshuo_time .day {
+        font: 24px/1 Tahoma;
+        display: block;
+        margin-top: 10px
+    }
+
+    .shuoshuo_meta .shuoshuo_time .month {
+        font-size: 12px;
+        display: block
+    }
+
+    .shuoshuo_content {
+        padding: 8px;
+        overflow: hidden;
+        box-shadow: 0 0 10px 1px #7B7F7B
+    }
+
+    .shuoshuo_quote_before {
+        font-size: 0;
+        line-height: 99;
+        height: 29px;
+        width: 32px;
+        display: block;
+        overflow: hidden;
+        float: left
+    }
+
+    .shuoshuo_quote_after {
+        font-size: 0;
+        line-height: 99;
+        height: 29px;
+        width: 32px;
+        display: block;
+        overflow: hidden;
+        float: right
+    }
+
+    .shuoshuo_op {
+        position: relative;
+        padding-right: 25px;
+        text-align: right
+    }
+
+    .shuoshuo_container .shuoshuo_op .shuoshuo_comment, .shuoshuo_container .shuoshuo_op .shuoshuo_like, .shuoshuo_op .shuoshuo_rt {
+        display: inline-block;
+        padding: 7px 10px 4px 34px;
+        font: 12px Arial, Helvetica, sans-serif;
+        border-radius: 0 0 4px 4px;
+        vertical-align: top;
+        height: 15px
+    }
+
+    div.pagination {
+        padding: 0;
+        margin: 25px 0 40px;
+        text-align: center;
+        font-size: 15px;
+        line-height: 17px;
+        position: relative
+    }
+
+    .pagination .pg-dots, .pagination .pg-item .current, .pagination .pg-item .disabled, .pagination .pg-item a {
+        display: inline-block;
+        color: #666;
+        padding: 9px 13px;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        text-decoration: none;
+        margin: 0 1px;
+        min-width: 10px
+    }
+
+    .pagination .pg-item a {
+        -webkit-transition: background .2s linear;
+        -moz-transition: background .2s linear;
+        -ms-transition: background .2s linear;
+        -o-transition: background .2s linear;
+        transition: background .2s linear;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden
+    }
+
+    .pagination .pg-next {
+        position: absolute
+    }
+}
+
+@media all and (orientation: portrait) {
+    .shuoshuo_container {
+        background: #e1dbcc;
+        color: #fff
+    }
+
+    .shuoshuo_meta .shuoshuo_time {
+        overflow: hidden;
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        background: #48acf9;
+        text-align: center
+    }
+
+    .shuoshuo_time {
+        background: #49a0e1;
+        color: #fff
+    }
+
+    .shuoshuo_meta .shuoshuo_time .day {
+        display: block;
+        margin-top: 5px;
+        font: 24px/1 Tahoma
+    }
+
+    .shuoshuo_time:hover {
+        box-shadow: 0 0 15px #873ffb
+    }
+
+    .shuoshuo_meta .shuoshuo_time .month {
+        display: block;
+        font-size: 9pt
+    }
+
+    .shuoshuo_content {
+        padding: 0 6px 5px;
+        background: #fff;
+        color: #373037
+    }
+
+    .shuoshuo_op {
+        position: relative;
+        padding-right: 30px;
+        text-align: right
+    }
+
+    .shuoshuo_more {
+        display: none
+    }
+
+    .shuoshuo_item:hover .shuoshuo_more {
+        float: right;
+        display: block;
+        transition: all .2s ease;
+        -webkit-animation-name: fadeIn;
+        -webkit-animation-duration: .8s;
+        -webkit-animation-iteration-count: 1;
+        -webkit-animation-delay: 0s
+    }
+
+    .shuoshuo_list {
+        overflow: hidden;
+        margin: 10px;
+        margin-bottom: 20px
+    }
+
+    .shuoshuo_item {
+        position: relative;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 20px 10px 0 17px
+    }
+
+    .shuoshuo_meta {
+        position: absolute;
+        top: 0;
+        left: 0
+    }
+
+    .shuoshuo_content {
+        overflow: hidden
+    }
+
+    .shuoshuo_quote_before {
+        float: left
+    }
+
+    .shuoshuo_quote_after, .shuoshuo_quote_before {
+        display: block;
+        overflow: hidden;
+        width: 2pc;
+        height: 29px;
+        font-size: 0;
+        line-height: 99
+    }
+
+    .shuoshuo_quote_after {
+        float: right
+    }
+
+    .shuoshuo_detail {
+        clear: both;
+        padding: 0 9pt
+    }
+
+    .shuoshuo_detail.p {
+        margin: 0 0 -22px
+    }
+
+    .shuoshuo_op {
+        position: relative;
+        padding-right: 25px;
+        text-align: right
+    }
+
+    .shuoshuo_container .shuoshuo_op .shuoshuo_comment, .shuoshuo_container .shuoshuo_op .shuoshuo_like, .shuoshuo_op .shuoshuo_rt {
+        display: inline-block;
+        padding: 7px 10px 4px 34px;
+        height: 15px;
+        border-radius: 0 0 4px 4px;
+        vertical-align: top;
+        font: 9pt Arial, Helvetica, sans-serif
+    }
+
+    div.pagination {
+        position: relative;
+        margin: 10px 0 30px;
+        padding: 0 0 10px 0;
+        text-align: center;
+        font-size: 15px;
+        line-height: 17px
+    }
+
+    .pagination .pg-dots, .pagination .pg-item .current, .pagination .pg-item .disabled, .pagination .pg-item a {
+        display: inline-block;
+        margin: 0 1px;
+        padding: 9px 13px;
+        min-width: 10px;
+        border-radius: 3px;
+        color: #666;
+        text-decoration: none
+    }
+
+    .pagination .pg-item a {
+        -webkit-transition: background .2s linear;
+        transition: background .2s linear;
+        -ms-transition: background .2s linear;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden
+    }
+
+    .pagination .pg-next {
+        position: absolute;
+        right: 20px
+    }
+}
+
+.shuoshuo_op .shuoshuo_rt {
+    background-position: 4px -14px
+}
+
+.post-copyright {
+    display: none
+}
+
+.shuoshuo_op a:hover {
+    text-decoration: none
+}
+
+.shuoshuo_op .shuoshuo_rt {
+    background-position: 0 -55px
+}
+
+.shuoshuo_op .shuoshuo_like {
+    background-position: 0 0
+}
+
+.pagination .pg-filler-1 {
+    width: 35%
+}
+
+.pagination .pg-filler-2 {
+    width: 40%
+}
+
+.pagination .pg-prev {
+    position: absolute;
+    left: 20px
+}
+
+.pg-nav-item {
+    text-transform: uppercase
+}
+
+.pagination .pg-item .current, .pagination .pg-item a:hover {
+    background: #ff5e52;
+    color: #fff
+}
+
+div.pagination a, div.pagination span.current {
+    padding: 0
+}
+
+div.pagination a.navbutton {
+    margin: 0 2px;
+    border: 1px solid #eaeaea
+}
+
+.shuoshuo_list {
+    overflow: hidden
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: .5
+    }
+    to {
+        opacity: 1
+    }
+}
+.single-shuoshuo {
+    background: #FFF;
+}
