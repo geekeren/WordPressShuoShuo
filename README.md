@@ -8,6 +8,12 @@ wordpress是最受欢迎的博客程序之一，但是却没有其它有些博�
 
 ## 2. Set Up
 
+（持续补充中）
+
+## 3. 预览
+
+[http://wangbaiyuan.cn/shuoshuo](http://wangbaiyuan.cn/shuoshuo)
+
 
 
 
