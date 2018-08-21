@@ -1,7 +1,15 @@
+.shuoshuo_container {
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    width: 860px;
+}
 @media all and (orientation: landscape) {
     .shuoshuo_container {
         font-size: 16px;
-        color: #fff
+        color: #fff;
+        display: inline-block;
+        width: 860px;
     }
 
     .shuoshuo_more a {
