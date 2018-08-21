@@ -31,6 +31,10 @@ wordpress是最受欢迎的博客程序之一，但是却没有其它有些博�
 
 [http://wangbaiyuan.cn/shuoshuo](http://wangbaiyuan.cn/shuoshuo)
 
-
+## 关注与交流
+<div style="text-align:center">
+<h4>关注我的微信<h4>
+<img src="http://wangbaiyuan.cn/mp.jpg" width="200"/> 
+</div>
 
 
