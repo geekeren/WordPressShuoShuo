@@ -1,5 +1,12 @@
 <?php get_header(); ?>
-<title>说说</title>
+<title>
+  <?php wp_title('|', true, 'right');
+  bloginfo('name');
+  $paged = get_query_var('paged');
+  if ($paged > 1) printf(' - 第 %s 页 ', $paged);
+  ?>
+
+</title>
 <link rel="stylesheet" href="<?php echo plugins_url(WP_SHUOSHUO_PLUGIN_NAME . '/style.css'); ?>">
 <div class="shuoshuo_main_content">
   <div class="shuoshuo_container">
