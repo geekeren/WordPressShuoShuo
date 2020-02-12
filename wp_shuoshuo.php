@@ -2,7 +2,7 @@
 /*
 Plugin Name: Wordpress说说
 Version: 0.0.1
-Plugin URI: http://wangbaiyuan.cn/by-shuoshuo-wp-plugin-release-feedback.html
+Plugin URI: https://github.com/geekeren/WordPressShuoShuo
 Author: 王柏元的的博客
 Author URI: http://wangbaiyuan.cn
 Description: Wordpress的写说说、微语插件。
