@@ -21,7 +21,7 @@ function register_shuoshuo()
         'exclude_from_search' => true,
         'query_var' => true,
         'rewrite' => true,
-        'capability_type' => ['post', 'custom_css'],
+        'capability_type' => 'post',
         'has_archive' => true, 'hierarchical' => false,
         'menu_position' => null, 'supports' => array('editor', 'author', 'title', 'comments'));
     register_post_type('shuoshuo', $args);
@@ -62,30 +62,6 @@ function isShuoShuo($post)
     global $paged, $page, $post;
     return $post->post_type == WP_SHUOSHUO_POST_TYPE;
 }
-
-function remove_element_from_array($arr, $element)
-{
-    echo 'dddd'.var_dump($arr);
-//    $new_arr = array();
-//    foreach ($arr as $value) {
-//        if ($value == $element) {
-//            continue;
-//        } else {
-//            $new_arr[] = $value;
-//        }
-//    }
-//    return $new_arr;
-}
-
-function my_home_category($query)
-{
-    global $post;
-    if (!isShuoShuo($post)) {
-        $query->set('post_type', remove_element_from_array($query->get('post_type'), WP_SHUOSHUO_POST_TYPE));
-    }
-}
-
-//add_action('pre_get_posts', 'my_home_category');
 
 /* Filter the single_template with our custom function*/
 add_filter('archive_template', 'shuoshuo_archive_template');

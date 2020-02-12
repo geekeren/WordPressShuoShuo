@@ -9,6 +9,7 @@ Description: Wordpress的写说说、微语插件。
 */
 define('WP_SHUOSHUO_PLUGIN_DIR', WP_PLUGIN_DIR.'/'. dirname(plugin_basename(__FILE__)));
 define('WP_SHUOSHUO_POST_TYPE', 'shuoshuo');
-define('WP_SHUOSHUO_PLUGIN_NAME', 'wp-shuoshuo');
-require_once(WP_SHUOSHUO_PLUGIN_DIR. '/includes/function/init.php');
+define('WP_SHUOSHUO_ROOT_PATH', basename(__DIR__));
+define('WP_SHUOSHUO_PLUGIN_NAME', WP_SHUOSHUO_ROOT_PATH);
+require_once(WP_SHUOSHUO_PLUGIN_DIR. '/init.php');
 require_once(WP_SHUOSHUO_PLUGIN_DIR. '/includes/function/functions.php');
